@@ -1,5 +1,26 @@
-const btn=document.querySelector('.hamb');const menu=document.querySelector('.menu');if(btn&&menu){btn.addEventListener('click',()=>{menu.classList.toggle('open');btn.setAttribute('aria-expanded',menu.classList.contains('open'))});}
-document.querySelectorAll('.menu a').forEach(a=>a.addEventListener('click',()=>menu?.classList.remove('open')));
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-const year=document.querySelector('[data-year]');if(year)year.textContent=new Date().getFullYear();
-const form=document.querySelector('#quoteForm');if(form){form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const msg=`Hello Udumalai Prince Packers and Movers,%0A%0AI need a moving quote.%0AName: ${encodeURIComponent(d.get('name')||'')}%0APhone: ${encodeURIComponent(d.get('phone')||'')}%0AMoving From: ${encodeURIComponent(d.get('from')||'')}%0AMoving To: ${encodeURIComponent(d.get('to')||'')}%0AService: ${encodeURIComponent(d.get('service')||'')}%0AMove Date: ${encodeURIComponent(d.get('date')||'')}%0AMessage: ${encodeURIComponent(d.get('message')||'')}`;window.open(`https://wa.me/91944224918?text=${msg}`,'_blank');});}
+const form = document.querySelector("#quoteForm");
+
+if (form) {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const d = new FormData(form);
+
+    const msg = `Hello Udumalai Prince Packers and Movers,
+
+I need a moving quote.
+
+Name: ${d.get("name") || ""}
+Phone: ${d.get("phone") || ""}
+Moving From: ${d.get("from") || ""}
+Moving To: ${d.get("to") || ""}
+Service: ${d.get("service") || ""}
+Move Date: ${d.get("date") || ""}
+Message: ${d.get("message") || ""}`;
+
+    const whatsappUrl =
+      "https://wa.me/919442249180?text=" + encodeURIComponent(msg);
+
+    window.open(whatsappUrl, "_blank");
+  });
+}

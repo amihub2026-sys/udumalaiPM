@@ -341,17 +341,17 @@ section {
 .ph-house {
   background-image:
     linear-gradient(135deg, rgba(8, 33, 58, 0.15), rgba(255, 122, 0, 0.16)),
-    url("../images/service-house.jpg");
+    url("../images/service-house.png");
 }
 .ph-office {
   background-image:
     linear-gradient(135deg, rgba(8, 33, 58, 0.15), rgba(255, 122, 0, 0.16)),
-    url("../images/service-office.jpg");
+    url("../images/service-office.png");
 }
 .ph-local {
   background-image:
     linear-gradient(135deg, rgba(8, 33, 58, 0.15), rgba(255, 122, 0, 0.16)),
-    url("../images/service-local.jpg");
+    url("../images/service-local.png");
 }
 .ph-out {
   background-image:
@@ -366,7 +366,7 @@ section {
 .ph-load {
   background-image:
     linear-gradient(135deg, rgba(8, 33, 58, 0.15), rgba(255, 122, 0, 0.16)),
-    url("../images/service-loading.jpg");
+    url("../images/service-loading.png");
 }
 .why {
   background: var(--bg);
@@ -382,7 +382,7 @@ section {
   border-radius: 28px;
   background:
     linear-gradient(145deg, rgba(8, 33, 58, 0.18), rgba(255, 122, 0, 0.12)),
-    url("../images/about-team.jpg") center/cover no-repeat;
+    url("../images/about-team.png") center/cover no-repeat;
   position: relative;
   box-shadow: var(--shadow);
 }
@@ -1029,22 +1029,22 @@ body {
 .ph-commercial {
   background-image:
     linear-gradient(135deg, rgba(8, 38, 90, 0.14), rgba(201, 151, 23, 0.15)),
-    url("../images/service-commercial.jpg");
+    url("../images/service-commercial.png");
 }
 .ph-vehicle {
   background-image:
     linear-gradient(135deg, rgba(8, 38, 90, 0.14), rgba(31, 164, 99, 0.14)),
-    url("../images/service-vehicle.jpg");
+    url("../images/service-vehicle.png");
 }
 .ph-transport {
   background-image:
     linear-gradient(135deg, rgba(8, 38, 90, 0.14), rgba(245, 124, 0, 0.15)),
-    url("../images/service-transport.jpg");
+    url("../images/service-transport.png");
 }
 .ph-warehouse {
   background-image:
     linear-gradient(135deg, rgba(8, 38, 90, 0.14), rgba(18, 97, 181, 0.15)),
-    url("../images/service-warehouse.jpg");
+    url("../images/service-warehouse.png");
 }
 .why {
   background: linear-gradient(135deg, #f2f7ff, #fff9ec);
@@ -1222,8 +1222,8 @@ body {
     linear-gradient(
       90deg,
       rgba(4, 22, 52, 0.94) 0%,
-      rgba(4, 31, 72, 0.78) 48%,
-      rgba(4, 31, 72, 0.3) 100%
+      /* rgba(4, 31, 72, 0.78) 48%,
+      rgba(4, 31, 72, 0.3) 100% */
     ),
     linear-gradient(0deg, rgba(3, 17, 40, 0.42), transparent 45%);
 }
@@ -1302,16 +1302,16 @@ body {
   z-index: 1;
 }
 .about-page-hero {
-  background-image: url("../images/portfolio-17.jpg");
+  background-image: url("../images/portfolio-20.png");
 }
 .services-page-hero {
-  background-image: url("../images/portfolio-01.jpg");
+  background-image: url("../images/portfolio-21.png");
 }
 .portfolio-page-hero {
-  background-image: url("../images/service-loading.jpg");
+  background-image: url("../images/portfolio-22.png");
 }
 .contact-page-hero {
-  background-image: url("../images/portfolio-16.jpg");
+  background-image: url("../images/portfolio-23.png");
 }
 .gallery {
   grid-template-columns: repeat(3, 1fr);
